@@ -11,7 +11,6 @@
   inputs.src-host-master.ref   = "refs/heads/master";
   inputs.src-host-master.owner = "RainbowAsteroids";
   inputs.src-host-master.repo  = "host";
-  inputs.src-host-master.dir   = "";
   inputs.src-host-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
